@@ -1,0 +1,42 @@
+{
+  "DA_CODE": "117",
+  "DA_NAME": "Mount Pleasant West",
+  "CITY": "Vancouver",
+  "PROVINCE": "BC",
+  "POPULATION": 12845,
+  "MEDIAN_INCOME": 68400,
+  "SCHOOLS": {
+    "elementary": 3,
+    "secondary": 1,
+    "post_secondary": 1,
+    "school_quality_index": 0.89
+  },
+  "TRANSIT": {
+    "stations": ["Broadway-City Hall", "Olympic Village"],
+    "bus_routes": 6,
+    "transit_score": 0.92
+  },
+  "DEVELOPMENT": {
+    "active_projects": 4,
+    "notable_projects": [
+      {
+        "name": "Cambie Corridor Phase 3",
+        "developer": "City of Vancouver",
+        "completion_year": 2026
+      },
+      {
+        "name": "Westbank – Broadway Towers",
+        "developer": "Westbank",
+        "completion_year": 2027
+      }
+    ]
+  },
+  "REAL_ESTATE": {
+    "avg_listing_price": 1275000,
+    "avg_days_on_market": 19,
+    "recent_sales": 43,
+    "property_types": ["Condo", "Townhouse", "Detached"]
+  },
+  "CLAIM_STATUS": "Available",
+  "UPDATED_AT": "2025-10-12T14:00:00Z"
+}

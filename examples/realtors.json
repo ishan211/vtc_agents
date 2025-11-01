@@ -1,0 +1,20 @@
+{
+  "realtors": [
+    {
+      "VTC_ID": "4589",
+      "name": "John Lee",
+      "brokerage": "Sutton Group West Coast Realty",
+      "email": "john.lee@sutton.com",
+      "specialization": "Family Housing Markets",
+      "territories_claimed": ["118", "119"]
+    },
+    {
+      "VTC_ID": "4590",
+      "name": "Sarah Chen",
+      "brokerage": "RE/MAX City Realty",
+      "email": "sarah.chen@remax.ca",
+      "specialization": "Urban Condos",
+      "territories_claimed": ["117"]
+    }
+  ]
+}
