@@ -268,7 +268,7 @@ These examples can be saved and hosted as static JSON files on your domain for t
 
 ### Example 1: Civic Data for DA (used by 2.2, 2.3, 2.5, 2.6)
 
-**File:** `https://vtc.ai/data/117.json`
+**File:** `https://github.com/ishan211/vtc_agents/blob/main/examples/117.json`
 
 ```json
 {
@@ -319,7 +319,7 @@ These examples can be saved and hosted as static JSON files on your domain for t
 
 ### Example 2: Realtor Registry Data (used by 2.2)
 
-**File:** `https://vtc.ai/realtors.json`
+**File:** `https://github.com/ishan211/vtc_agents/blob/main/examples/realtors.json`
 
 ```json
 {
@@ -348,7 +348,7 @@ These examples can be saved and hosted as static JSON files on your domain for t
 
 ### Example 3: Territory Availability Data (optional for 2.3 testing)
 
-**File:** `https://vtc.ai/territories.json`
+**File:** `https://github.com/ishan211/vtc_agents/blob/main/examples/territories.json`
 
 ```json
 {
@@ -377,7 +377,7 @@ These examples can be saved and hosted as static JSON files on your domain for t
 
 ### Example 4: Renewal and Plan Data (for 2.6 testing)
 
-**File:** `https://vtc.ai/renewals.json`
+**File:** `https://github.com/ishan211/vtc_agents/blob/main/examples/renewals.json`
 
 ```json
 {
@@ -406,7 +406,7 @@ These examples can be saved and hosted as static JSON files on your domain for t
 
 1. Upload these `.json` files to your hosting environment (e.g., AWS S3, Cloudflare Pages, or GitHub Pages).
 2. Ensure the URLs are **publicly accessible** (i.e., anyone can open them in a browser).
-3. When prompted by a script (for example, `json_data_url`), paste the hosted URL (e.g. `https://vtc.ai/data/117.json`).
+3. When prompted by a script (for example, `json_data_url`), paste the hosted URL (e.g. `https://github.com/ishan211/vtc_agents/blob/main/examples/117.json`).
 4. Make sure your site sends `Content-Type: application/json` headers for these files.
 
 ---
@@ -414,8 +414,8 @@ These examples can be saved and hosted as static JSON files on your domain for t
 ### Example Test Input for 2.2 Using Hosted Data
 
 ```
-json_data_url: https://vtc.ai/data/117.json
-realtor_data: https://vtc.ai/realtors.json
+json_data_url: https://github.com/ishan211/vtc_agents/blob/main/examples/117.json
+realtor_data: https://github.com/ishan211/vtc_agents/blob/main/examples/realtors.json
 VTC_ID: 4589
 ```
 
