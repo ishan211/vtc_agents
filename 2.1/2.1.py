@@ -1,7 +1,7 @@
 import anthropic
 
 # Load API key from file
-with open("../apikey.txt", "r") as f:
+with open("apikey.txt", "r") as f:
     api_key = f.read().strip()
 
 # Prompt for inputs
